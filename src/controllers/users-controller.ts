@@ -4,8 +4,6 @@ import { prisma } from "@/database/prisma"
 import { hash } from "bcrypt"
 import { z } from "zod"
 
-
-
 class UsersController {
 
     async create(request: Request, response: Response) {
@@ -26,7 +24,6 @@ class UsersController {
 
         if (userWithSameEmail) {
             throw new AppError("User with same email already exists")
-
         }
 
         const hashedPassword = await hash(password, 8)
@@ -43,8 +40,6 @@ class UsersController {
         const { password: _, ...userWithoutPassword } = user
 
         return response.status(201).json(userWithoutPassword)
-
-
     }
 }
 

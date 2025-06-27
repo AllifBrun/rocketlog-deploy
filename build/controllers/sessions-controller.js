@@ -39,7 +39,7 @@ var import_zod = require("zod");
 var envSchema = import_zod.z.object({
   DATABASE_URL: import_zod.z.string().url(),
   JWT_SECRET: import_zod.z.string(),
-  PORT: import_zod.z.coerce.number().default(3333)
+  PORT: import_zod.z.coerce.number().default()
 });
 var env = envSchema.parse(process.env);
 
