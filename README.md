@@ -10,24 +10,6 @@ Uma **API RESTful robusta** para gerenciamento e rastreamento de encomendas, des
 
 ---
 
-## 📋 Índice
-
-- [Features](#features)
-- [Stack Tecnológico](#stack-tecnológico)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Configuração](#configuração)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Endpoints da API](#endpoints-da-api)
-- [Autenticação e Autorização](#autenticação-e-autorização)
-- [Banco de Dados](#banco-de-dados)
-- [Testes](#testes)
-- [Deploy](#deploy)
-- [Contribuindo](#contribuindo)
-- [Autor](#autor)
-
----
 
 ## ✨ Features
 
@@ -562,23 +544,4 @@ Este projeto está sob a licença ISC. Veja o arquivo `package.json` para mais d
 - GitHub: [@AllifBrun](https://github.com/AllifBrun)
 - LinkedIn: [Allif Brun](https://linkedin.com/in/allifbrun)
 
----
 
-## 🚀 Próximos Passos / Melhorias Futuras
-
-- [ ] Adicionar paginação nas listagens
-- [ ] Implementar filtros avançados de busca
-- [ ] Adicionar notificações por email
-- [ ] Integrar com serviços de geolocalização
-- [ ] Dashboard de analytics
-- [ ] Documentação OpenAPI/Swagger
-- [ ] Rate limiting e throttling
-- [ ] Cache com Redis
-
----
-
-## ⭐ Se esse projeto foi útil para você, considere dar uma estrela! ⭐
-
----
-
-**Última atualização:** 11 de Maio de 2026
